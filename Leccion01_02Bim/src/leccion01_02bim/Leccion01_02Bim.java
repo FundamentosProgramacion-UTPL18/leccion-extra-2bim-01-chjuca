@@ -23,7 +23,7 @@ public class Leccion01_02Bim {
         double[] arreglo3 = new double[6];                                      // Declaracion del Arreglo que almacenara el promedio de los Arreglos en la posicion n
 
         for (int i = 0; i < arreglo3.length; i++) {                             // Inicia el for que recorrera el Arreglo
-            arreglo3[i] = (arreglo1[i] + arreglo2[i]) / 2;                      // Calcular el promedio de los arreglos y almacenarlo en el arreglo3
+            arreglo3[i] = arreglo1[i] / arreglo2[i];                            // Calcular el promedio de los arreglos y almacenarlo en el arreglo3
             suma = suma + arreglo3[i];                                          // Suma los valores almacenados en arreglo3
         }
         System.out.printf("%s\t%s\t%s\t\n", "Areglo1", "Arreglo2", "Resultado");                // Presenta los encabezados
